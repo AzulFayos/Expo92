@@ -1,0 +1,131 @@
+body {
+    background-image: url("./Material/img/fondo.jpg");
+}
+
+p {
+    text-justify: auto;
+}
+
+a {
+    color: #F6D155;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #223A5E;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Versalita;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+header::first-letter {
+    font-size: 1.5em;
+}
+
+.indice {
+    width: 15%;
+    background-color: #223A5E;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1.5em;
+}
+.indi1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.centrado {
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: -15em;
+    vertical-align: baseline;
+    align-self: baseline;
+}
+
+h3 {
+    color: brown;
+    border-bottom: brown;
+    border-bottom-style: solid;
+    border-radius: 1px;
+}
+h4 {
+    color: brown;
+    font-style: oblique;
+}
+
+.tabla {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+th {
+    color: white;
+    background-color: #223A5E;
+    padding: 10px;
+}
+td {
+    color: black;
+    padding: 10px;
+}
+.par {
+    background-color: #D49F75;
+}
+.impar {
+    background-color: #C48F65;
+}
+
+.img {
+    text-align: center;
+    vertical-align: baseline;
+}
+.img1 {
+    border-radius: 3px;
+    border-style: solid;
+    text-align: center;
+    vertical-align: baseline;
+    margin: auto;
+}
+.anotacion {
+    font-style: oblique;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imgs {
+    margin-top: 2em;
+    box-sizing: border-box; 
+    margin-bottom: 15em;
+    width: 110%;
+}
+.columna {
+    margin-left: 10%;
+    float: left;
+    width: 20%;
+}
+.imgs1 {
+    width: 100%;
+}
+
+
+
+footer {
+    background-color: #223A5E;
+    border-top-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    text-align: center;
+    color: white;
+    height: 1em;
+    padding: 1em;
+}
